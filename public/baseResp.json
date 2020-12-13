@@ -1,0 +1,83 @@
+[
+  {
+
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom ; Google meet ; Youtube",
+    "perguntaTres": "Não",
+    "ptDois": "",
+    "perguntaQuatro": "Às vezes",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Nem concordo, nem discordo",
+    "perguntaSete": "Não",
+    "perguntaOito": 2,
+    "perguntaNove": "Videoaulas;Exercícios e testes;Disponibilidade  de e-books",
+    "perguntaDez": "Nem concordo, nem discordo"
+  },
+  {
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom;Google meet;AVA (ambientes virtuais de aprendizagem)",
+    "perguntaTres": "Não",
+    "ptDois": "",
+    "perguntaQuatro": "Frequentemente",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Concordo parcialmente",
+    "perguntaSete": "Não",
+    "perguntaOito": 3,
+    "perguntaNove": "Aulas online e ao vivo;Videoaulas;Exercícios e testes;Fóruns de discussão",
+    "perguntaDez": "Concordo parcialmente"
+  },
+  {
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom;Google meet;Youtube",
+    "perguntaTres": "Não",
+    "ptDois": "",
+    "perguntaQuatro": "Algumas vezes",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Concordo parcialmente",
+    "perguntaSete": "Não",
+    "perguntaOito": 2,
+    "perguntaNove": "Aulas online e ao vivo;Videoaulas;Exercícios e testes",
+    "perguntaDez": "Discordo totalmente"
+  },
+  {
+
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom;Google meet",
+    "perguntaTres": "Não",
+    "ptDois": "",
+    "perguntaQuatro": "Frequentemente",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Nem concordo, nem discordo",
+    "perguntaSete": "Não",
+    "perguntaOito": 1,
+    "perguntaNove": "Aulas online e ao vivo",
+    "perguntaDez": "Discordo totalmente"
+  },
+  {
+
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom;Google meet;Bibliotecas virtuais",
+    "perguntaTres": "Sim",
+    "ptDois": "Programas de desenvolver Artigos, seminários etc",
+    "perguntaQuatro": "Algumas vezes",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Concordo parcialmente",
+    "perguntaSete": "Sim",
+    "perguntaOito": 3,
+    "perguntaNove": "Videoaulas;Disponibilidade  de e-books;Slide de aulas",
+    "perguntaDez": "Discordo totalmente"
+  },
+  {
+    "perguntaUm": "Não",
+    "perguntaDois": "Classroom;Google meet;Youtube",
+    "perguntaTres": "Não",
+    "ptDois": "",
+    "perguntaQuatro": "Frequentemente",
+    "perguntaCinco": "Sim",
+    "perguntaSeis": "Concordo parcialmente",
+    "perguntaSete": "Sim",
+    "perguntaOito": 3,
+    "perguntaNove": "Aulas online e ao vivo;Videoaulas;Exercícios e testes;Slide de aulas",
+    "perguntaDez": "Discordo parcialmente"
+  }
+]
