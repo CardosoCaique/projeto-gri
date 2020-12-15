@@ -25,3 +25,29 @@ Route::get('/dashboard', [
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => 'auth'], function(){
+    Route::get('criar', function(){
+        return view('perguntas.create');
+    });
+    Route::post('salvar', [
+        'as' => 'salvar',
+        'uses' => 'PerguntasController@store'
+    ]);
+    Route::get('show', [
+        'as' => 'show',
+        'uses' => 'PerguntasController@show'
+    ]);
+    Route::get('editar/{id}', [
+        'as' => 'editar',
+        'uses' => 'PerguntasController@editar'
+    ]);
+    Route::post('{id}/salvar', [
+        'as' => 'atualizar',
+        'uses' => 'PerguntasController@update'
+    ]);
+    Route::get('apagar/{id}', [
+        'as' => 'apagar',
+        'uses' => 'PerguntasController@apagar'
+    ]);
+});
