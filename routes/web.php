@@ -50,4 +50,16 @@ Route::group(['middleware' => 'auth'], function(){
         'as' => 'apagar',
         'uses' => 'PerguntasController@apagar'
     ]);
+    Route::get('apagarjs/{id}', [
+        'as' => 'apagarjs',
+        'uses' => 'RepostasController@apagar'
+    ]);
+    Route::get('editarjs/{id}', [
+        'as' => 'editarjs',
+        'uses' => 'RepostasController@editar'
+    ]);
+    Route::post('{id}/salvarjs', [
+        'as' => 'atualizarjs',
+        'uses' => 'RepostasController@update'
+    ]);
 });

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Pergunta;
+use App\Resposta;
 
 class DashController extends Controller
 {

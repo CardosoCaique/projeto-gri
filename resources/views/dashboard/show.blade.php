@@ -34,6 +34,57 @@
                 </div>
             </div>
         @endforeach
+        <br>
+        <h2>Respostas</h2>
+        <?php
+            $id = 0;
+        ?>
+        @foreach($base as $b)
+            <div class="card">
+                <div class="card-body">
+                    @foreach($perguntas as $pergunta)
+                        <h5>{{ $pergunta->pergunta }}</h5>
+                        <?php
+                            if ($pergunta->nome=='perguntaUm') {
+                                echo "<h6>" . $b->perguntaUm . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaDois') {
+                                echo "<h6>" . $b->perguntaDois . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaTres') {
+                                echo "<h6>" . $b->perguntaTres . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaQuatro') {
+                                echo "<h6>" . $b->perguntaQuatro . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaCinco') {
+                                echo "<h6>" . $b->perguntaCinco . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaSeis') {
+                                echo "<h6>" . $b->perguntaSeis . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaSete') {
+                                echo "<h6>" . $b->perguntaSete . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaOito') {
+                                echo "<h6>" . $b->perguntaOito . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaNove') {
+                                echo "<h6>" . $b->perguntaNove . "</h6>";
+                            }
+                            if ($pergunta->nome=='perguntaDez') {
+                                echo "<h6>" . $b->perguntaDez . "</h6>";
+                            }
+                        ?>
+                    @endforeach
+                    <a href="{{ route('editarjs', $id) }}" class="btn btn-warning">Editar</a>
+                    <a href="{{ route('apagarjs', $id) }}" class="btn btn-danger">Excluir</a>
+                    <?php
+                        $id++;
+                    ?>
+                </div>
+            </div>
+        @endforeach
     </div>
 @endsection
 
