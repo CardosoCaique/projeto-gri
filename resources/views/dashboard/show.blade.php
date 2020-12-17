@@ -75,6 +75,9 @@
                             if ($pergunta->nome=='perguntaDez') {
                                 echo "<h6>" . $b->perguntaDez . "</h6>";
                             }
+                            if ($pergunta->nome=='ptDois') {
+                                echo "<h6>" . $b->ptDois . "</h6>";
+                            }
                         ?>
                     @endforeach
                     <a href="{{ route('editarjs', $id) }}" class="btn btn-warning">Editar</a>

@@ -40,11 +40,12 @@ class RepostasController extends Controller
 
     	$data = file_get_contents('baseResp.json');
  		$data_array = json_decode($data, true);
-
+ 		
         $update_arr = array(
 		'perguntaUm' => $request->input('perguntaUm'),
 		'perguntaDois' => $request->input('perguntaDois'),
 		'perguntaTres' => $request->input('perguntaTres'),
+		'ptDois' => $request->input('ptDois'),
 		'perguntaQuatro' => $request->input('perguntaQuatro'),
 		'perguntaCinco' => $request->input('perguntaCinco'),
 		'perguntaSeis' => $request->input('perguntaSeis'),
